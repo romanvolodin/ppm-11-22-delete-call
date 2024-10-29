@@ -19,4 +19,6 @@
 
 ```bash
 google-chrome --headless --hide-scrollbars --window-size=360,800 --force-device-scale-factor=2 --screenshot=../../out/ppm-11-22-delete-call_v01.png http://localhost:5173/
+
+google-chrome --headless --hide-scrollbars --window-size=360,200 --force-device-scale-factor=2 --screenshot=../../out/ppm-11-22-delete-call_v01_menu.png http://localhost:5173/menu
 ```
