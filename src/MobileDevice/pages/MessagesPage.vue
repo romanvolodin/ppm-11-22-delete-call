@@ -8,13 +8,21 @@ import NotificationBox from '@/MobileDevice/components/NotificationBox.vue'
   <main class="wrapper bg">
     <TopBar class="top-bar" />
     <div class="main">
-      <h2 class="title">Сообщения</h2>
+      <h2 class="title">Входящие</h2>
+      <NotificationBox icon-color="#ff7365" sender="Дочь" time="2 мин" body="Мобильный" />
+      <NotificationBox icon-color="#cf65ff" sender="Пантера" time="1 мин" body="Мобильный" />
+      <NotificationBox icon-color="#cf65ff" sender="Пантера" time="1 мин" body="Мобильный" />
+      <span class="sep">Вчера</span>
       <NotificationBox
-        icon-color="#ffb465"
-        sender="Инесса Станиславовна"
-        time="1 мин"
-        body="Вот координаты места: 59.985306, 30.165443"
+        icon-color="#94c3c8"
+        sender="Валера звукач"
+        time="1 мин назад"
+        body="Мобильный"
       />
+      <NotificationBox icon-color="#ff7365" sender="Дочь" time="2 мин" body="Мобильный" />
+      <NotificationBox icon-color="#cf65ff" sender="Пантера" time="3 мин" body="Мобильный" />
+      <span class="sep">Сегодня</span>
+      <NotificationBox icon-color="#ffb465" sender="Жанка" time="1 мин назад" body="Мобильный" />
     </div>
     <BottomBar class="bottom-bar" />
   </main>
@@ -53,5 +61,12 @@ import NotificationBox from '@/MobileDevice/components/NotificationBox.vue'
 .greenScreen > .top-bar,
 .greenScreen > .bottom-bar {
   opacity: 0;
+}
+.sep {
+  margin-top: 5px;
+  margin-bottom: 15px;
+  border-radius: 50vh;
+  background-color: #0001;
+  padding: 3px 10px;
 }
 </style>

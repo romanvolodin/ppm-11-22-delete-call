@@ -16,7 +16,7 @@ import network_icon from '@/MobileDevice/assets/icons/reception-4.svg'
       <img :src="battery_icon" style="width: 22px" />
       <span class="battery-percentage">38%</span>
     </div>
-    <div class="time">20:46</div>
+    <div class="time">12:07</div>
   </main>
 </template>
 

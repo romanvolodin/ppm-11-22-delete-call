@@ -18,12 +18,10 @@ const color = computed(() => {
     <div class="grp">
       <img class="icon" :src="person_icon" :style="color" />
       <div class="text">
-        <p class="top">
-          <span class="sender">{{ sender }}</span>
-          •
-          <span class="time">{{ time }}</span>
+        <p class="top sender">{{ sender }}</p>
+        <p class="body">
+          {{ body }} • <span class="time">{{ time }}</span>
         </p>
-        <p class="body">{{ body }}</p>
       </div>
     </div>
 
@@ -41,7 +39,7 @@ const color = computed(() => {
   justify-content: space-between;
   align-items: center;
   margin-bottom: 8px;
-  box-shadow: 0 10px 20px #0003;
+  box-shadow: 0 3px 25px #0001;
   border-radius: 10px;
   background-color: white;
   padding: 10px;
@@ -49,7 +47,7 @@ const color = computed(() => {
 }
 .grp {
   display: flex;
-  align-items: start;
+  align-items: center;
   gap: 15px;
 }
 .text {
@@ -57,7 +55,7 @@ const color = computed(() => {
   flex-direction: column;
 }
 .top {
-  font-size: 14px;
+  font-size: 20px;
 }
 .icon {
   border-radius: 50vh;
@@ -67,13 +65,14 @@ const color = computed(() => {
   height: 35px;
 }
 .sender {
+  margin-top: -5px;
   font-weight: bold;
 }
 .time {
   color: gray;
 }
 .body {
-  font-size: 18px;
+  font-size: 14px;
 }
 .icon-chevron {
   border-radius: 50vh;

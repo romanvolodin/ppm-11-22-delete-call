@@ -1,5 +1,4 @@
-import GeoPosition from '@/MobileDevice/pages/GeoPosition.vue'
-import GeoPositionOff from '@/MobileDevice/pages/GeoPositionOff.vue'
+import MessageMenuPage from '@/MobileDevice/pages/ActionsMenuPage.vue'
 import MessagesPage from '@/MobileDevice/pages/MessagesPage.vue'
 import { createRouter, createWebHistory } from 'vue-router'
 
@@ -12,14 +11,9 @@ const router = createRouter({
       path: '/',
     },
     {
-      component: GeoPositionOff,
-      name: 'off',
-      path: '/off',
-    },
-    {
-      component: GeoPosition,
-      name: 'on',
-      path: '/on',
+      path: '/menu',
+      name: 'menu',
+      component: MessageMenuPage,
     },
   ],
 })
