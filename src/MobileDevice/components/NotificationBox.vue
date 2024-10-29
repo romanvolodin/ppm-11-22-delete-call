@@ -39,7 +39,7 @@ const color = computed(() => {
   justify-content: space-between;
   align-items: center;
   margin-bottom: 8px;
-  box-shadow: 0 3px 25px #0001;
+  box-shadow: 0 3px 10px #0001;
   border-radius: 10px;
   background-color: white;
   padding: 10px;
