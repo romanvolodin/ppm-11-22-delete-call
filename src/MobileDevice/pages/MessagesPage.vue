@@ -9,7 +9,6 @@ import NotificationBox from '@/MobileDevice/components/NotificationBox.vue'
     <TopBar class="top-bar" />
     <div class="main">
       <h2 class="title">Входящие</h2>
-      <NotificationBox icon-color="#ff7365" sender="Дочь" time="2 мин" body="Мобильный" />
       <NotificationBox icon-color="#cf65ff" sender="Пантера" time="1 мин" body="Мобильный" />
       <NotificationBox icon-color="#cf65ff" sender="Пантера" time="1 мин" body="Мобильный" />
       <span class="sep">Вчера</span>
@@ -19,7 +18,7 @@ import NotificationBox from '@/MobileDevice/components/NotificationBox.vue'
         time="1 мин назад"
         body="Мобильный"
       />
-      <NotificationBox icon-color="#ff7365" sender="Дочь" time="2 мин" body="Мобильный" />
+      <NotificationBox icon-color="#ff7365" sender="Леха" time="2 мин" body="Мобильный" />
       <NotificationBox icon-color="#cf65ff" sender="Пантера" time="3 мин" body="Мобильный" />
       <span class="sep">Сегодня</span>
       <NotificationBox icon-color="#ffb465" sender="Жанка" time="1 мин назад" body="Мобильный" />

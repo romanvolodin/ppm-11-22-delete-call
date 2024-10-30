@@ -55,7 +55,7 @@ const color = computed(() => {
   flex-direction: column;
 }
 .top {
-  font-size: 20px;
+  font-size: 25px;
 }
 .icon {
   border-radius: 50vh;
